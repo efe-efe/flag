@@ -1,0 +1,57 @@
+.Scoreboard{
+    width: 100%; 
+    margin-top: 4.5%; 
+}
+
+.Scoreboard__Container{ 
+    width: 100%; 
+    flow-children: right;
+}
+
+.Scoreboard__Team{
+    width: 50%;
+}
+
+.Scoreboard__Row--Left{
+    align: right bottom; 
+    flow-children: right; 
+    margin-right: 45px;
+}
+
+.Scoreboard__Row--Right{
+    align: left bottom; 
+    flow-children: right; 
+    margin-left: 45px;
+}
+
+.Scoreboard__Flag-Container{
+    opacity: 0.3;
+    height: 32px; 
+    width: 32px; 
+    border: 4px solid #2C2F38; 
+    border-radius: 1000px;
+    margin: 0 4px;
+
+    transition-property: opacity;
+    transition-duration: 0.5s;
+
+    background-color: rgba(255,255,255, 0.05);
+}
+
+
+.Scoreboard__Flag-Container--Picked-Radiant{
+    opacity: 1.0;
+    box-shadow: 0 0 5px rgb(169, 248, 169);
+}
+
+.Scoreboard__Flag-Container--Picked-Dire{
+    opacity: 1.0;
+    box-shadow: 0 0 4px rgb(248, 169, 169);
+}
+
+.Scoreboard__Flag-Image{
+    align: center center;
+    height: 16px; 
+    width: 16px;
+}
+

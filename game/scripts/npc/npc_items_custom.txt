@@ -1,0 +1,15 @@
+#base "items\dire_flag.txt"
+#base "items\radiant_flag.txt"
+#base "items\haste_rune.txt"
+#base "items\damage_rune.txt"
+#base "items\regeneration_rune.txt"
+#base "items\invisibility_rune.txt"
+#base "items\swiftness_potion.txt"
+#base "items\bounce_trap.txt"
+#base "items\glue_bomb.txt"
+#base "items\gold_bag.txt"
+#base "items\ice_trap.txt"
+
+"DOTAAbilities"
+{
+}

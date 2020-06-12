@@ -1,0 +1,29 @@
+"DOTAAbilities"
+{
+    "item_swiftness_potion"	
+	{	
+		"ID"							"3007"
+		"BaseClass"						"item_lua"	
+		"AbilityTextureName" 			"item_swiftness_potion"	
+        "ScriptFile"                    "items/item_swiftness_potion/item_swiftness_potion.lua"
+        "Model"							"models/props_gameplay/salve_red.vmdl"
+
+		"ItemCost"						"150"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemDroppable"                 "1"
+		"ItemStackable"					"1"
+        "ItemInitialCharges" 			"2" 
+        "ItemDisplayCharges" 			"1" 
+		"ItemPermanent" 				"0"
+		"ItemRequiresCharges" 			"1"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityCooldown"				"8.0"
+
+		"AbilitySpecial"	
+		{
+			"01"{ "var_type"	"FIELD_FLOAT"		"duration"						    "5.0" }
+			"02"{ "var_type"	"FIELD_INTEGER"		"ms_pct"						    "30" }
+		}
+    }	
+}	

@@ -1,0 +1,7 @@
+#base "abilities\bounce_trap\bounce_trap_passive.txt"
+#base "abilities\chest\chest_passive.txt"
+#base "abilities\ice_trap\ice_trap_passive.txt"
+
+"DOTAAbilities"
+{
+}

@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+    "bounce_trap_passive"
+    {
+        "BaseClass"                         "ability_lua"
+        "ScriptFile"                        "abilities/bounce_trap/bounce_trap_passive"
+        "AbilityTextureName"                "item_bounce_trap"
+        "MaxLevel"                          "1"
+
+        "AbilityBehavior"                   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitTargetTeam"             "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"             "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellImmunityType"                 "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"              "SPELL_DISPELLABLE_NO"
+        "AbilityDamage"                     "100"
+        "AbilityUnitDamageType"             "DAMAGE_TYPE_MAGICAL"
+
+        "precache"
+        {
+            "soundfile"               "soundevents/game_sounds_heroes/game_sounds_rattletrap.vsndevts"
+        }
+
+        "AbilitySpecial"
+        {
+            "01"{ "var_type"	"FIELD_INTEGER"         "radius"                            "150" }
+            "02"{ "var_type"	"FIELD_INTEGER"         "distance"						    "300" }
+            "03"{ "var_type"	"FIELD_FLOAT"           "duration"						    "0.3" }
+            "04"{ "var_type"	"FIELD_FLOAT"           "trap_duration"                     "30.0" }
+            "05"{ "var_type"	"FIELD_INTEGER"         "bounces"                           "3" }
+        }
+    }
+}
+

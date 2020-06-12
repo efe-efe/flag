@@ -1,0 +1,17 @@
+"DOTAUnits"
+{
+    "npc_dota_bounce_trap"
+	{
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/items/rattletrap/clockwerk_red_baron_clockwerk_red_baron_cog/clockwerk_red_baron_clockwerk_red_baron_cog.vmdl"
+		"ModelScale"				"2.0"
+		
+		"HealthBarOffset"			"150"
+
+		"Ability1"					"bounce_trap_passive"
+
+		"VisionDaytimeRange"		"180"
+		"VisionNighttimeRange"		"180"
+    }
+}
+

@@ -1,0 +1,43 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf26:version{26288658-411e-4f14-b698-2e1e5d00dec6} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_techies/techies_blast_off_ringmodel.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_techies/techies_blast_off_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_techies/techies_blast_off_streak.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_techies/techies_blast_off_streak_hard.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_techies/techies_blast_off_fire_smalls_explosion_fingers.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_techies/techies_blast_off_groundburn.vpcf"
+		},
+	]
+	m_nBehaviorVersion = 10
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ null, null, null ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+}

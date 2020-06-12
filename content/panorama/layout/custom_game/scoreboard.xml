@@ -1,0 +1,40 @@
+<root>
+	<scripts>
+        <include src="file://{resources}/scripts/custom_game/scoreboard.js" />
+	</scripts>
+
+    <styles>
+        <include src="file://{resources}/styles/custom_game/scoreboard.css" />
+    </styles>
+
+    <Panel class="Scoreboard">
+        <Panel class="Scoreboard__Container" id="Scoreboard__Container">
+            <Panel class="Scoreboard__Team">
+                <Panel class="Scoreboard__Row Scoreboard__Row--Left">
+                    <Panel class="Scoreboard__Flag-Container Scoreboard__Flag-Container--Picked">
+                        <Image id="1" class="Scoreboard__Flag-Image" src="file://{images}/custom_game/flag.png" />
+                    </Panel>
+                    <Panel class="Scoreboard__Flag-Container">
+                        <Image id="2" class="Scoreboard__Flag-Image" src="file://{images}/custom_game/flag.png" />
+                    </Panel>
+                    <Panel class="Scoreboard__Flag-Container">
+                        <Image id="3" class="Scoreboard__Flag-Image" src="file://{images}/custom_game/flag.png" />
+                    </Panel>
+                </Panel>
+            </Panel>
+            <Panel class="Scoreboard__Team">
+                <Panel class="Scoreboard__Row Scoreboard__Row--Right">
+                    <Panel class="Scoreboard__Flag-Container">
+                        <Image id="4" class="Scoreboard__Flag-Image" src="file://{images}/custom_game/flag.png" />
+                    </Panel>
+                    <Panel class="Scoreboard__Flag-Container">
+                        <Image id="5" class="Scoreboard__Flag-Image" src="file://{images}/custom_game/flag.png" />
+                    </Panel>
+                    <Panel class="Scoreboard__Flag-Container">
+                        <Image id="6" class="Scoreboard__Flag-Image" src="file://{images}/custom_game/flag.png" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

@@ -1,0 +1,15 @@
+"DOTAAbilities"
+{
+    "item_damage_rune"
+    {
+        "ID"                            "3003"
+        "BaseClass"                     "item_lua"
+
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        "AbilityTextureName"            "item_damage_rune"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "Model"							"models/props_gameplay/rune_doubledamage01.vmdl"
+
+		"ItemCastOnPickup"				"1"
+    }    
+}

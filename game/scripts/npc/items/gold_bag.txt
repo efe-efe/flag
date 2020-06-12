@@ -1,0 +1,15 @@
+"DOTAAbilities"
+{
+    "item_gold_bag"
+    {
+        "ID"                            "3010"
+        "BaseClass"                     "item_lua"
+
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        "AbilityTextureName"            "item_gold_bag"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "Model"							"models/props_gameplay/gold_bag.vmdl"
+
+		"ItemCastOnPickup"				"1"
+    }    
+}

@@ -1,0 +1,22 @@
+{
+  "name": "flag",
+  "version": "1.0.0",
+  "description": "Capture the flag game mod for Dota 2",
+  "main": "index.js",
+  "scripts": {        
+    "build:vscripts": "tstl --project game/scripts/vscripts/tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/efe-efe/flag.git"
+  },
+  "author": "Efe (Fabian Urbina)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/efe-efe/flag#readme",
+  "devDependencies": {
+    "dota-lua-types": "^4.3.1",
+    "lua-types": "^2.8.0",
+    "typescript": "^3.9.5",
+    "typescript-to-lua": "^0.34.0"
+  }
+}

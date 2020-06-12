@@ -1,0 +1,17 @@
+"DOTAUnits"
+{
+    "npc_dota_ice_trap"
+	{
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/items/rattletrap/cog_tesla/cog_tesla.vmdl"
+		"ModelScale"				"2.0"
+		
+		"HealthBarOffset"			"150"
+
+		"Ability1"					"ice_trap_passive"
+
+		"VisionDaytimeRange"		"180"
+		"VisionNighttimeRange"		"180"
+    }
+}
+

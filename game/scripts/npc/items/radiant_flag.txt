@@ -1,0 +1,16 @@
+"DOTAAbilities"
+{
+    "item_radiant_flag"
+    {
+        "ID"                            "3000"
+        "BaseClass"                     "item_lua"
+
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        "AbilityTextureName"            "item_radiant_flag"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "Model"							"models/props_teams/banner_radiant.vmdl"
+        
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"1"
+    }    
+}

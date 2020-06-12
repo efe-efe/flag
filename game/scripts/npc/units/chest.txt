@@ -1,0 +1,17 @@
+"DOTAUnits"
+{
+    "npc_dota_chest"
+	{
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/props_gameplay/treasure_chest001.vmdl"
+		"ModelScale"				"1.5"
+		
+		"HealthBarOffset"			"150"
+
+		"Ability1"					"chest_passive"
+
+		"StatusHealth"				"6"
+		"BountyXP"					"0" 
+    }
+}
+

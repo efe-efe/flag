@@ -1,0 +1,15 @@
+<root>
+	<scripts>
+	</scripts>
+		
+    <styles>
+    </styles>
+
+	<Panel>
+    	<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/buff_list.xml" />
+    	<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/scoreboard.xml" />
+    	<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/flag_notifications.xml" />
+	</Panel>
+</root>
+
+

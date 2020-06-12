@@ -1,0 +1,7 @@
+#base "units\chest.txt"
+#base "units\bounce_trap.txt"
+#base "units\ice_trap.txt"
+
+"DOTAUnits"
+{
+}

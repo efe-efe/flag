@@ -1,0 +1,14 @@
+"DOTAAbilities"
+{
+    "chest_passive"
+    {
+        "BaseClass"                         "ability_lua"
+        "ScriptFile"                        "abilities/chest/chest_passive"
+        "AbilityTextureName"                "item_chest"
+        "MaxLevel"                          "1"
+
+        "AbilityBehavior"                   "DOTA_ABILITY_BEHAVIOR_PASSIVE || DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "SpellDispellableType"              "SPELL_DISPELLABLE_NO"
+    }
+}
+

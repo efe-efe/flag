@@ -1,0 +1,35 @@
+
+"DOTAAbilities"
+{
+    "item_ice_trap"	
+	{	
+		"ID"							"3011"
+		"BaseClass"						"item_lua"	
+		"AbilityTextureName" 			"item_ice_trap"	
+        "ScriptFile"                    "items/item_ice_trap/item_ice_trap.lua"
+        "Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		"ItemCost"						"150"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemDroppable"                 "1"
+		"ItemStackable"					"1"
+        "ItemInitialCharges" 			"2" 
+        "ItemDisplayCharges" 			"1" 
+		"ItemPermanent" 				"0"
+		"ItemRequiresCharges" 			"1"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityCooldown"				"1.0"
+        "AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.1"
+
+		"AbilitySpecial"	
+		{
+			"01"{ "var_type"	"FIELD_FLOAT"		"delay"						        "2.0" }
+			"02"{ "var_type"	"FIELD_FLOAT"		"duration"						    "30.0" }
+			"03"{ "var_type"	"FIELD_INTEGER"		"root_duration"                     "4.0" }
+			"04"{ "var_type"	"FIELD_INTEGER"		"radius"						    "250" }
+			"05"{ "var_type"	"FIELD_FLOAT"		"proc_delay"						"0.4" }
+		}
+    }	
+}	
